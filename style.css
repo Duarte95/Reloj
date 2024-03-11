@@ -1,0 +1,42 @@
+body {
+  background-color: #000;
+  color: #0f0;
+  font-family: "Courier New", monospace;
+  text-align: center;
+  margin: 0;
+}
+
+.contenedor_reloj {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  height: 100vh;
+}
+
+#clock {
+  font-size: 100px;
+  letter-spacing: 10px;
+  text-shadow: 0 0 20px #0f0;
+  animation: blink 1s linear infinite;
+}
+
+#date {
+  font-size: 24px;
+  margin-top: -10px;
+  text-shadow: 0 0 12px #0f0;
+  animation: blink 1s linear infinite;
+  font-weight: bold;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
