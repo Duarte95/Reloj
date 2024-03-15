@@ -1,0 +1,51 @@
+body {
+    font-size: 15pt;
+}
+
+.inputs{
+  width: 100px;
+  height: 25px;
+  box-sizing: border-box;
+}
+
+.contenedor_dolar{}
+.img_dolar{}
+.dolar{}
+
+.contenedor_bolivar{}
+.img_bolivar{}
+.bolivar{}
+
+.contenedor_punto{}
+.img_punto{}
+.punto{}
+
+.botones{}
+.boton{
+  color: white;
+  font-weight: bold;
+  height: 30px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: none;;
+}
+
+.editar{
+  width: 60px;
+  background-color: #D42B2B;
+}
+
+.fraccion{
+  width: 30px;
+  background-color: #6BDC44;
+}
+.fraccion:active{
+  background-color: #46A326;
+}
+.calcular{
+  width: 60px;
+  background-color: #FF8F2E
+}
+.calcular:active{
+  background-color: #D07B32;
+}

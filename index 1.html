@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Project -->
+  <div class="contenedor_dolar">
+    <div class="img_dolar">$</div>
+    <input type="number" class="dolar inputs" readonly>
+  </div>
+  <div class="contenesor_bolivar">
+    <div class="img_bolivar">Bs</div>
+    <input type="number" class="bolivar inputs" readonly>
+  </div>
+  <div class="contenesor_punto">
+    <div class="img_punto">Punto</div>
+    <input type="number" class="punto inputs" readonly>
+  </div>
+  <div class="contenedor_tasa">
+    <label for="tasa">Tasa del Dia</label>
+    <input name="tasa" type="number" class="tasa inputs" readonly>
+    <button class="guardar" style="display: none">Guardar</button>
+    <button class="editar boton">Editar</button>
+  </div>
+  <div class="contenedor_monto">
+    <label for="monto">Monto Total</label>
+    <input name="monto" type="number" class="montoDolar inputs">
+  </div>
+  <div class="botones">
+    <button type="submit" class="fraccion boton">F</button>
+    <button type="submit" class="calcular boton">Calcular</button>
+  </div>
+  <!-- Logic -->
+  <script src="main.js"></script>
+</body>
+</html>
